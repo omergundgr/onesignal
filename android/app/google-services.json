@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "968625658777",
+    "project_id": "onesignaldevnet",
+    "storage_bucket": "onesignaldevnet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968625658777:android:7b6e77a7ed309c98829108",
+        "android_client_info": {
+          "package_name": "com.omer.onesignal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968625658777-7kmiodogj4q5rvardtrr9pttjefk9blu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuVbmZ70OLatQrGFqAvK6UL6e7vMPJAI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968625658777-7kmiodogj4q5rvardtrr9pttjefk9blu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
