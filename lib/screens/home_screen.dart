@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   void initState() {
-    _getUser();
+    OneSignalService().initOneSignal().then((_) => _getUser());
     super.initState();
   }
 
@@ -53,6 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ElevatedButton(
                       onPressed: () => OneSignalService()
                           .sendSpesificNotification(
+                              context: context,
                               uid: _uid!,
                               message: _tBoxCtrl.text.isEmpty
                                   ? "Test Bildirimi"
