@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:onesignal/services/notification_service.dart';
 import 'package:onesignal/services/user_service.dart';
+
+import '../services/onesignal_service.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -50,7 +51,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                   ElevatedButton(
-                      onPressed: () => NotificationService()
+                      onPressed: () => OneSignalService()
                           .sendSpesificNotification(
                               uid: _uid!,
                               message: _tBoxCtrl.text.isEmpty
